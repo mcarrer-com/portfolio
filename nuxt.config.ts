@@ -26,6 +26,10 @@ export default defineNuxtConfig({
     }
   },
 
+  image: {
+    provider: 'netlify'
+  },
+
   eslint: {
     lintOnStart: false,
     exclude: ['**/node_modules/**', 'dist']
