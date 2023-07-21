@@ -25,6 +25,8 @@ const onSubmit = () => {
           method="POST"
           data-netlify="true"
         >
+          <input type="hidden" name="form-name" value="contact">
+          
           <UFormGroup
             name="name"
             :label="$t('contact.name')"
