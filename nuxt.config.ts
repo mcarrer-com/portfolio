@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  ssr: true,
+  ssr: false,
+  target: 'static',
 
   modules: [
     '@nuxthq/ui',
