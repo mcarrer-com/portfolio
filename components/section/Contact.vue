@@ -22,8 +22,8 @@ const onSubmit = () => {
       <div class="lg:w-2/3">
         <form
           name="contact"
-          method="post"
-          netlify="true"
+          method="POST"
+          data-netlify="true"
         >
           <UFormGroup
             name="name"
