@@ -21,7 +21,8 @@ const onSubmit = () => {
       </div>
       <div class="lg:w-2/3">
         <form
-          @submit.prevent="onSubmit"
+          name="contact"
+          netlify
         >
           <UFormGroup
             name="name"
