@@ -1,0 +1,45 @@
+{
+    "brand": "Michaël Carrer",
+    "welcome": "Welcome",
+    "sections": {
+        "about": "About",
+        "experiences": "Experiences",
+        "contact": "Contact"
+    },
+    "language": {
+        "en": "English",
+        "fr": "Français"
+    },
+    "home": {
+        "freelance": "Freelance developer",
+        "building": "Building",
+        "websites": "websites",
+        "softwares": "softwares"
+    },
+    "about": {
+        "text": "With 15 years' experience in software and web development, I'm familiar with the latest technologies and languages. I have a passion for lifelong learning and am open to new challenges.",
+        "contact-text": "Unlock your vision. Let's build your app together.",
+        "contact-me": "Contact me"
+    },
+    "experiences": {
+        "text": "zgzezegze",
+        "personal-project": "Personal project",
+        "roles": {
+            "full-stack-developer": "Full Stack Developer",
+            "software-developer": "Software Developer",
+            "it-department-manager": "IT Department Manager"
+        },
+        "summary": {
+            "perso": "zrgg",
+            "ed": "zegze",
+            "abw": "regerg"
+        }
+    },
+    "contact": {
+        "text": "zgzezegze",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send"
+    }
+}

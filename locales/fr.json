@@ -1,0 +1,41 @@
+{
+    "brand": "Michaël Carrer",
+    "welcome": "Bienvenue",
+    "sections": {
+        "about": "À Propos",
+        "experiences": "Expériences",
+        "contact": "Contact"
+    },
+    "home": {
+        "freelance": "Développeur indépendant",
+        "building": "Créateur de",
+        "websites": "sites internet",
+        "softwares": "logiciels"
+    },
+    "about": {
+        "text": "Avec une solide expérience de 15 ans dans le développement logiciel et web, je suis familiarisé avec les dernières technologies et langages en demande. Je nourris une passion pour l'apprentissage continu et je suis ouvert à de nouveaux défis.",
+        "contact-text": "Donnez vie à votre vision. Créons votre application ensemble.",
+        "contact-me": "Me contacter"
+    },
+    "experiences": {
+        "text": "zgzezegze",
+        "personal-project": "Projet personnel",
+        "roles": {
+            "full-stack-developer": "Développeur Full Stack",
+            "software-developer": "Développeur Logiciel",
+            "it-department-manager": "Responsable du Service Informatique"
+        },
+        "summary": {
+            "perso": "zrgg",
+            "ed": "zegze",
+            "abw": "regerg"
+        }
+    },
+    "contact": {
+        "text": "zgzezegze",
+        "name": "Nom",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Envoyer"
+    }
+}
