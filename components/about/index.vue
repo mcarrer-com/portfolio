@@ -8,6 +8,7 @@
         <UButton
           color="primary"
           :label="$t('about.contact-me')"
+          aria-label="Contact Me"
           @click="$router.push('#contact')"
         />
       </div>
@@ -16,9 +17,12 @@
       <div class="fancy-btn">
         <nuxt-img
           src="/moi.png"
+          format="webp"
           width="400px"
+          height="400px"
           sizes="sm:100vw md:50vw lg:400px"
           class="img mx-auto"
+          alt="me"
         />
       </div>
     </div>

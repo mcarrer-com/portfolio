@@ -1,0 +1,35 @@
+
+html.dark {
+
+  // small screens, dark theme
+
+  &,
+  main,
+  header {
+    color: theme('colors.gray.100');
+    background-color: theme('colors.gray.900');
+  }
+
+
+  .navbar__menus {
+    background-color: theme('colors.gray.800');
+  }
+
+  // large screen, dark theme
+
+  @media (min-width: 1024px) {
+
+    .navbar__menus {
+      background-color: inherit;
+    }
+
+    .fancy-btn {
+
+      &::before,
+      &::after {
+        border-color: theme('colors.gray.800');
+      }
+    }
+
+  }
+}

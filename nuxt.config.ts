@@ -2,8 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  // ssr: false,
-
   modules: [
     '@nuxthq/ui',
     '@nuxtjs/eslint-module',
@@ -14,11 +12,15 @@ export default defineNuxtConfig({
 
   css: [
     "@/assets/styles/tailwind.css",
-    "@/assets/styles/main.scss"
+    "@/assets/styles/light.scss",
+    "@/assets/styles/dark.scss"
   ],
 
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en'
+      },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       link: [
@@ -29,16 +31,7 @@ export default defineNuxtConfig({
 
   image: {
     provider: 'netlify',
-
-    screens: {
-      xs: 320,
-      sm: 640,
-      md: 768,
-      lg: 1024,
-      xl: 1280,
-      xxl: 1536,
-      '2xl': 1536
-    },
+    format: ['webp']
   },
 
   eslint: {
