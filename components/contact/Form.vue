@@ -3,7 +3,6 @@
     name="contact"
     method="POST"
     netlify-honeypot="bot-field"
-    data-netlify-recaptcha="true"
     data-netlify="true"
     class="vertical-content"
   >
@@ -39,8 +38,6 @@
     >
       <UTextarea />
     </UFormGroup>
-
-    <div data-netlify-recaptcha="true" />
 
     <div class="btn-group">
       <UButton
