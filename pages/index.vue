@@ -11,9 +11,17 @@ useSeoMeta({
 
 <template>
   <main>
-    <SectionHome />
-    <SectionAbout />
-    <SectionExperiences />
-    <SectionContact />
+    <section id="hero">
+      <Hero />
+    </section>
+    <section id="about">
+      <About />
+    </section>
+    <section id="experiences">
+      <Experiences />
+    </section>
+    <section id="contact">
+      <Contact />
+    </section>
   </main>
 </template>

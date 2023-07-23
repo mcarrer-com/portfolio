@@ -3,7 +3,6 @@
 
 ## Prioritaire
 
-- Corriger le placement des titres des sections
 - Ajouter les textes manquants
 - Ajouter un footer
 
@@ -15,4 +14,3 @@
 
 # Pour la production
 - Ajouter la validation du formulaire de contact
-- Envoyer l'email

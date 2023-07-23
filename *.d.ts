@@ -1,4 +1,9 @@
-declare module '*.yaml' {
-    const content: { [key: string]: any }
-    export default content
-}
+
+type Experience = {
+    dateIn: string
+    dateOut: string
+    roles: string[]
+    company: string
+    summary: string
+    tags: string[]
+  }

@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  ssr: false,
-  target: 'static',
+  // ssr: false,
 
   modules: [
     '@nuxthq/ui',
@@ -14,6 +13,7 @@ export default defineNuxtConfig({
   ],
 
   css: [
+    "@/assets/styles/tailwind.css",
     "@/assets/styles/main.scss"
   ],
 
@@ -28,7 +28,17 @@ export default defineNuxtConfig({
   },
 
   image: {
-    provider: 'netlify'
+    provider: 'netlify',
+
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+      '2xl': 1536
+    },
   },
 
   eslint: {

@@ -9,7 +9,8 @@ export default <Partial<Config>> {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [
     require('tailwindcss-animated')
