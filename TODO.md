@@ -10,7 +10,3 @@
 
 - Overlay au chargement de l'appli
 - Backgrounds différents suivant les sections?
-
-
-# Pour la production
-- Ajouter la validation du formulaire de contact

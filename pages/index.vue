@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Michaël Carrer - Developer Full Stack & Software',
-  ogTitle: 'Michaël Carrer - Developer Full Stack & Software',
+  title: 'Michael Carrer - Developer Full Stack & Software',
+  ogTitle: 'Michael Carrer - Developer Full Stack & Software',
   description: 'This is my amazing site, let me tell you all about it.',
   ogDescription: 'This is my amazing site, let me tell you all about it.',
   ogImage: 'https://example.com/image.png',

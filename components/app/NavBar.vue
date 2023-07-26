@@ -2,12 +2,11 @@
   <nav class="navbar">
     <div class="navbar__main">
       <RouterLink
-        to="/"
+        :to="{ path: '/',hash:'#hero'}"
         class="btn-brand fancy-btn"
-        @click="scrollToTop"
       >
         <SvgoLogo filled />
-        {{ $t('brand') }}
+        <h3>{{ $t('brand') }}</h3>
       </RouterLink>
       <button
         class="btn-menu"
@@ -25,13 +24,13 @@
           v-for="section in sections"
           :key="section"
         >
-          <a
-            :href="`#${section}`"
+          <RouterLink
+            :to="{ path: '/',hash:`#${section}`}"
             class="fancy-btn"
             @click="closeNav"
           >
             {{ $t(`sections.${section}`) }}
-          </a>
+          </RouterLink>
         </li>
       </ul>
       <ul>
@@ -49,9 +48,5 @@
   const showMenu = ref(false);
   const toggleNav = () => (showMenu.value = !showMenu.value);
   const closeNav = () => (showMenu.value = false);
-  const scrollToTop = () => {
-    window.scrollTo(0, 0)
-    closeNav()
-  }
   const sections = ['about', 'experiences', 'contact']
   </script>

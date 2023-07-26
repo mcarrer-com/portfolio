@@ -4,23 +4,40 @@
 
 
 @layer base {
-    h1 {
+
+    h1,
+    h2,
+    h3 {
         font-weight: 900;
+    }
+
+
+    h1 {
         font-size: 1.575rem;
         line-height: 2.25rem;
-
-        @media (min-width: 1024px) {
-            font-size: 2rem;
-        }
     }
     h2 {
-        font-weight: 900;
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
     h3 {
-        font-weight: 900;
         font-size: 1rem;
         line-height: 1.5rem;
+    }
+
+
+    @media (min-width: 1024px) {
+        h1 {
+            font-size: 4rem;
+            line-height: 5rem;
+        }
+        h2 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+        h3 {
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+        }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "brand": "Michaël Carrer",
+    "brand": "Michael Carrer",
     "welcome": "Bienvenue",
     "sections": {
         "about": "À Propos",
@@ -13,12 +13,14 @@
         "softwares": "logiciels"
     },
     "about": {
-        "text": "Avec une solide expérience de 15 ans dans le développement logiciel et web, je suis familiarisé avec les dernières technologies et langages en demande. Je nourris une passion pour l'apprentissage continu et je suis ouvert à de nouveaux défis.",
-        "contact-text": "Donnez vie à votre vision. Créons votre application ensemble.",
+        "text1": "Je suis un développeur passionné, spécialisé en développement full stack et logiciel, avec une riche expérience de 12 ans dans le monde professionnel. Aujourd'hui, fort de cette expérience et animé par une soif de nouveaux défis, je fais le grand saut pour devenir freelance. Mon objectif est de mettre mes compétences et mon savoir-faire à votre service, afin de créer des solutions informatiques innovantes et sur mesure pour votre entreprise.",
+        "text2": "Donnez vie à votre vision. Créons votre application ensemble.",
         "contact-me": "Me contacter"
     },
     "experiences": {
-        "text": "zgzezegze",
+        "text1": "En tant que développeur full stack et logiciel, j'ai parcouru un passionnant voyage professionnel au cours des 12 dernières années. Ma carrière m'a permis d'acquérir une expertise solide dans la conception et la réalisation de logiciels, ainsi que dans le développement web moderne. Mon parcours diversifié, allant de la supervision de machines de haute précision à la création d'applications web basées sur des micro-services, témoigne de ma capacité à m'adapter et à innover dans différents domaines.",
+        "text2": "En tant que freelance, je suis déterminé à mettre en œuvre mon savoir-faire pour apporter une valeur ajoutée à vos projets et contribuer à leur succès. Mon objectif est de collaborer avec vous pour créer des solutions technologiques sur mesure, alliant performance, convivialité et évolutivité.",
+        "text3": "N'hésitez pas à explorer mon CV pour découvrir en détail mon parcours professionnel et mes compétences techniques. Je suis enthousiaste à l'idée de relever de nouveaux défis passionnants avec vous. Ensemble, créons l'avenir numérique dont vous rêvez !",
         "personal-project": "Projet personnel",
         "roles": {
             "full-stack-developer": "Développeur Full Stack",
@@ -37,5 +39,9 @@
         "email": "Email",
         "message": "Message",
         "submit": "Envoyer"
+    },
+    "validations": {
+        "required": "La valeur est requise.",
+        "email": "La valeur n'est pas un email valide."
     }
 }

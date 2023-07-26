@@ -9,7 +9,9 @@ const experiences = computed(() => getExperiences(t))
   <div class="section-wrapper">
     <div class="vertical-content">
       <h2>{{ $t('sections.experiences') }}</h2>
-      <p>{{ $t('experiences.text') }}</p>
+      <p>{{ $t('experiences.text1') }}</p>
+      <p>{{ $t('experiences.text2') }}</p>
+      <p>{{ $t('experiences.text3') }}</p>
     </div>
     <div>
       <ul class="vertical-content margin-even">

@@ -2,8 +2,8 @@
   <div class="section-wrapper">
     <div class="vertical-content">
       <h2>{{ $t('sections.about') }}</h2>
-      <p>{{ $t('about.text') }}</p>
-      <p>{{ $t('about.contact-text') }}</p>
+      <p>{{ $t('about.text1') }}</p>
+      <p>{{ $t('about.text2') }}</p>
       <div class="btn-group">
         <UButton
           color="primary"
