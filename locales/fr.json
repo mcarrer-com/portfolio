@@ -28,13 +28,13 @@
             "it-department-manager": "Responsable du Service Informatique"
         },
         "summary": {
-            "perso": "zrgg",
-            "ed": "zegze",
-            "abw": "regerg"
+            "perso": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
+            "ed": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
+            "abw": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?"
         }
     },
     "contact": {
-        "text": "zgzezegze",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
         "name": "Nom",
         "email": "Email",
         "message": "Message",

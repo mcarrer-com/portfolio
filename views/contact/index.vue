@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ContactForm from './Form.vue'
+</script>
+
 <template>
   <div class="section-wrapper">
     <div class="vertical-content">

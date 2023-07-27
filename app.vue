@@ -1,32 +1,32 @@
 <script setup lang="ts">
-const nuxtApp = useNuxtApp();
-const loading = ref(false);
+const views = ['hero', 'about', 'experiences', 'contact']
+const loaded = ref(false)
 
+useSeoMeta({
+  title: 'Michael Carrer - Developer Full Stack & Software',
+  ogTitle: 'Michael Carrer - Developer Full Stack & Software',
+  description: 'This is my amazing site, let me tell you all about it.',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: 'https://portfolio.mcarrer.com/logo.png',
+  twitterCard: 'summary_large_image',
+})
 
-nuxtApp.hook('app:beforeMount', () => {
-  console.log('loading: true (app)')
-  loading.value = true;
-}); 
-
-nuxtApp.hook("page:start", () => {
-  console.log('loading: true (page)')
-  loading.value = true;
-}); 
-
-nuxtApp.hook("page:finish", () => {
-  console.log('loading: false')
-  loading.value = false;
-});
+onMounted(() => loaded.value = true)
 </script>
 
 <template>
-  <div class="h-screen">
-    <div
-      v-if="loading"
-      class="fixed left-0 top-0 h-0.5 w-full z-50 bg-green-500"
-    />
-    <NuxtLayout>
-      <RouterView />
-    </NuxtLayout>
+  <div class="app-wrapper">
+    <header>
+      <AppNavBar />
+    </header>
+    <main>
+      <section
+        v-for="v in views"
+        :id="v"
+        :key="v"
+      >
+        <RouterView :name="v" />
+      </section>
+    </main>
   </div>
 </template>

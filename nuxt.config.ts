@@ -10,17 +10,14 @@ export default defineNuxtConfig({
     'nuxt-svgo'
   ],
 
-  css: [
-    "@/assets/styles/tailwind.css",
-    "@/assets/styles/light.scss",
-    "@/assets/styles/dark.scss"
-  ],
+  eslint: {
+    lintOnStart: false,
+    exclude: ['**/node_modules/**', 'dist']
+  },
 
   app: {
     head: {
-      htmlAttrs: {
-        lang: 'en'
-      },
+      htmlAttrs: { lang: 'en' },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       link: [
@@ -29,21 +26,13 @@ export default defineNuxtConfig({
     }
   },
 
+  css: [
+    "@/assets/styles/tailwind.css",
+    "@/assets/styles/light.scss",
+    "@/assets/styles/dark.scss"
+  ],
+
   image: {
-    provider: 'netlify',
-    format: ['webp']
-  },
-
-  eslint: {
-    lintOnStart: false,
-    exclude: ['**/node_modules/**', 'dist']
-  },
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-
+    provider: 'netlify'
+  }
 })

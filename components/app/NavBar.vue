@@ -1,13 +1,13 @@
 <template>
   <nav class="navbar">
     <div class="navbar__main">
-      <RouterLink
-        :to="{ path: '/',hash:'#hero'}"
+      <NuxtLink
+        :to="{ path: '/', hash:'#hero'}"
         class="btn-brand fancy-btn"
       >
         <SvgoLogo filled />
         <h3>{{ $t('brand') }}</h3>
-      </RouterLink>
+      </NuxtLink>
       <button
         class="btn-menu"
         @click="toggleNav"
@@ -24,21 +24,21 @@
           v-for="section in sections"
           :key="section"
         >
-          <RouterLink
+          <NuxtLink
             :to="{ path: '/',hash:`#${section}`}"
             class="fancy-btn"
             @click="closeNav"
           >
             {{ $t(`sections.${section}`) }}
-          </RouterLink>
+          </NuxtLink>
         </li>
       </ul>
       <ul>
         <li>
-          <LocaleSelector />
+          <AppLocaleSelector />
         </li>
         <li>
-          <ColorModeButton />
+          <AppColorModeButton />
         </li>
       </ul>
     </div>

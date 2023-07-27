@@ -3,13 +3,8 @@ html.dark {
 
   // small screens, dark theme
 
-  &,
-  main,
-  header {
-    color: theme('colors.gray.100');
-    background-color: theme('colors.gray.900');
-  }
-
+  color: theme('colors.gray.100');
+  background-color: theme('colors.gray.900');
 
   .navbar__menus {
     background-color: theme('colors.gray.800');
