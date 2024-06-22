@@ -1,0 +1,26 @@
+Agit en tant que développeur full stack et logiciel. Tu souhaites devenir freelance après avoir été salarié pendant plus de 12 ans.
+Ton objectif est de rédiger un portfolio qui saura convaincre des potentiels clients.
+Voici ton background:
+
+
+J'ai 34 ans et je suis développeur informatique. J'ai toujours été salarié et je voudrais devenir freelance.
+
+J'ai commencé à créer des application en VB6 quand j'étais adolescent avec mon père.
+J'ai tout de suite aimé ça et j'ai vite appris le C# et le Java pour créer des logiciels qui pouvaient m'aider dans mes tâches quotidiennes.
+
+Après quelques années j'ai fait une formation professionnelle d'1 an à l'AFPA pour devenir Concepteur Développeur en Informatique.
+
+A la suite de ca j'ai eu ma première expérience professionnelle dans une PME appelée ABW Concept spécialisée dans la conception de machines de mesure, de contrôle et d’assemblage
+de haute précision. Unique développeur, j'ai conçu et réalisé en VB.Net un logiciel de supervision de ces machines.
+Une fois le projet terminé, au bout d'un an, j'ai quitté l'entreprise en commun accord avec les dirigeants.
+
+J'ai eu ma deuxieme expérience professionnelle dans une société appelée Electrical Design, spécialisée dans la conception en ingénierie électrique.
+J'étais chargé de créer des applications en C#, WPF et VBScript pour compléter l'expérience utilisateur lors de l'utilisation de la suite de logiciel E3.series.
+En parallèle, j'étais aussi chargé de maintenir et faire évoluer l'application J2EE d'un donneur d'ordre, durant les 8 années où je suis resté dans l'entreprise.
+Au bout de 1 an, j'ai aussi pris la place de responsable du service informatique de la société Electrical Design, composé de moi et 2 autres développeurs.
+J'ai alors supervisé la maintenance et la modernisation du système informatique. Nous avons mis en place plusieurs serveurs linux et windows grâce à de la virtualisation,
+ce qui nous a permis d'héberger nos propres serveurs mails, notre site internet,  notre solution de stockage pour l'entreprise et nos clients ainsi que la sauvegarde,
+et autres fonctionalités permises par notre solution de cloud.
+
+A la recherche de nouveaux défis, je suis alors parti de la société pour créer mon propre produit. Une application web avec une architecture basée sur des micro-services.
+Elle comprenait notament un site internet en Nuxt (version 2 puis 3 quand elle est sortie), une api en python. Après 1 an, le projet est toujours en cours de développement.

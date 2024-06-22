@@ -6,7 +6,7 @@
         class="btn-brand fancy-btn"
       >
         <SvgoLogo filled />
-        <h3>{{ $t('brand') }}</h3>
+        <span>{{ $t('brand') }}</span>
       </NuxtLink>
       <button
         class="btn-menu"

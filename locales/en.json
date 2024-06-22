@@ -38,7 +38,10 @@
         }
     },
     "contact": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
+        "text1": "Do you have a project in mind that requires the expertise of a full stack and software developer? Are you looking for a tailor-made solution for your IT needs?",
+        "text2": "Don't hesitate to contact me to discuss your project and explore the possibilities together. Whether you want to create an innovative web application, optimize your existing software or design custom solutions, I'm here to help you realize your digital ambitions.",
+        "text3": "As an experienced developer, I'm committed to providing quality work, transparent collaboration and a service tailored to your specific requirements. Your satisfaction is my top priority.",
+        "text4": "Simply complete the attached contact form, and I'll get back to you as soon as possible. Together, let's bring your IT projects to life and build a promising digital future!",
         "name": "Name",
         "email": "Email",
         "message": "Message",

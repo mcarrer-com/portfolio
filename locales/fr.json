@@ -34,7 +34,10 @@
         }
     },
     "contact": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
+        "text1": "Vous avez un projet en tête qui nécessite l'expertise d'un développeur full stack et logiciel ? Vous êtes à la recherche d'une solution sur mesure pour vos besoins informatiques ?",
+        "text2": "N'hésitez pas à me contacter pour discuter de votre projet et explorer les possibilités ensemble. Que ce soit pour créer une application web innovante, optimiser vos logiciels existants ou concevoir des solutions personnalisées, je suis là pour vous aider à réaliser vos ambitions numériques.",
+        "text3": "En tant que développeur expérimenté, je m'engage à fournir un travail de qualité, une collaboration transparente et un service adapté à vos exigences spécifiques. Votre satisfaction est ma priorité absolue.",
+        "text4": "Complétez simplement le formulaire de contact ci-joint, et je vous recontacterai dans les plus brefs délais. Ensemble, donnons vie à vos projets informatiques et construisons un futur numérique prometteur !",
         "name": "Nom",
         "email": "Email",
         "message": "Message",

@@ -1,5 +1,5 @@
 <template>
-  <div class="section-wrapper">
+  <div class="section-wrapper container mx-auto">
     <div class="vertical-content">
       <h2>{{ $t('sections.about') }}</h2>
       <p>{{ $t('about.text1') }}</p>

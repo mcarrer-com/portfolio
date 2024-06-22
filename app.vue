@@ -1,7 +1,4 @@
 <script setup lang="ts">
-const views = ['hero', 'about', 'experiences', 'contact']
-const loaded = ref(false)
-
 useSeoMeta({
   title: 'Michael Carrer - Developer Full Stack & Software',
   ogTitle: 'Michael Carrer - Developer Full Stack & Software',
@@ -10,8 +7,6 @@ useSeoMeta({
   ogImage: 'https://portfolio.mcarrer.com/logo.png',
   twitterCard: 'summary_large_image',
 })
-
-onMounted(() => loaded.value = true)
 </script>
 
 <template>
@@ -21,7 +16,7 @@ onMounted(() => loaded.value = true)
     </header>
     <main>
       <section
-        v-for="v in views"
+        v-for="v in ['hero', 'about', 'experiences', 'contact']"
         :id="v"
         :key="v"
       >

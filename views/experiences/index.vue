@@ -8,7 +8,7 @@ const experiences = computed(() => getExperiences(t))
 
 <template>
   <div
-    class="section-wrapper"
+    class="section-wrapper container mx-auto"
     style="align-items: start;"
   >
     <div class="vertical-content">
