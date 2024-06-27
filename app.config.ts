@@ -9,7 +9,7 @@ export default defineAppConfig({
         },
         badge: {
             variant: {
-                solid: "bg-{color}-50 dark:bg-{color}-400 dark:bg-opacity-10 font-bold text-{color}-800 dark:text-{color}-200 ring-1 ring-inset ring-{color}-500 dark:ring-{color}-400 ring-opacity-10 dark:ring-opacity-20"
+                solid: "mr-1 bg-{color}-50 dark:bg-{color}-400 dark:bg-opacity-10 font-bold text-{color}-800 dark:text-{color}-200 ring-1 ring-inset ring-{color}-500 dark:ring-{color}-400 ring-opacity-10 dark:ring-opacity-20"
             }
         }
     }

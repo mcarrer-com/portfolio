@@ -1,54 +1,55 @@
 {
-    "brand": "Michael Carrer",
-    "welcome": "Welcome",
-    "sections": {
-        "about": "About",
-        "experiences": "Experiences",
-        "contact": "Contact"
+  "brand": "Michael Carrer",
+  "welcome": "Welcome",
+  "sections": {
+    "about": "About",
+    "experiences": "Experiences",
+    "contact": "Contact"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français"
+  },
+  "hero": {
+    "freelance": "Freelance developer",
+    "building": "Building",
+    "websites": "websites",
+    "softwares": "softwares"
+  },
+  "about": {
+    "text1": "I'm a passionate developer, specializing in full stack and software development, with a wealth of experience spanning 12 years in the professional world. Today, on the strength of this experience and driven by a thirst for new challenges, I'm taking the plunge to become a freelancer. My aim is to put my skills and know-how at your service, to create innovative, tailor-made IT solutions for your company.",
+    "text2": "Unlock your vision. Let's build your app together.",
+    "contact-me": "Contact me"
+  },
+  "experiences": {
+    "text1": "As a full stack and software developer, I've been on an exciting professional journey over the past 12 years. My career has given me solid expertise in software design and development, as well as in modern web development. My diversified career path, ranging from the supervision of high-precision machines to the creation of web applications based on microservices, bears witness to my ability to adapt and innovate in different fields.",
+    "text2": "As a freelancer, I'm determined to use my expertise to add value to your projects and contribute to their success. My aim is to work with you to create tailor-made technological solutions, combining performance, user-friendliness and scalability.",
+    "text3": "Please feel free to explore my CV to find out more about my professional background and technical skills. I'm looking forward to working with you on new and exciting challenges. Together, let's create the digital future you've been dreaming of!",
+    "download": "Download CV",
+    "personal-project": "Personal project",
+    "roles": {
+      "full-stack-developer": "Full Stack Developer",
+      "software-developer": "Software Developer",
+      "it-department-manager": "IT Department Manager"
     },
-    "language": {
-        "en": "English",
-        "fr": "Français"
-    },
-    "hero": {
-        "freelance": "Freelance developer",
-        "building": "Building",
-        "websites": "websites",
-        "softwares": "softwares"
-    },
-    "about": {
-        "text1": "I'm a passionate developer, specializing in full stack and software development, with a wealth of experience spanning 12 years in the professional world. Today, on the strength of this experience and driven by a thirst for new challenges, I'm taking the plunge to become a freelancer. My aim is to put my skills and know-how at your service, to create innovative, tailor-made IT solutions for your company.",
-        "text2": "Unlock your vision. Let's build your app together.",
-        "contact-me": "Contact me"
-    },
-    "experiences": {
-        "text1": "As a full stack and software developer, I've been on an exciting professional journey over the past 12 years. My career has given me solid expertise in software design and development, as well as in modern web development. My diversified career path, ranging from the supervision of high-precision machines to the creation of web applications based on microservices, bears witness to my ability to adapt and innovate in different fields.",
-        "text2": "As a freelancer, I'm determined to use my expertise to add value to your projects and contribute to their success. My aim is to work with you to create tailor-made technological solutions, combining performance, user-friendliness and scalability.",
-        "text3": "Please feel free to explore my CV to find out more about my professional background and technical skills. I'm looking forward to working with you on new and exciting challenges. Together, let's create the digital future you've been dreaming of!",
-        "personal-project": "Personal project",
-        "roles": {
-            "full-stack-developer": "Full Stack Developer",
-            "software-developer": "Software Developer",
-            "it-department-manager": "IT Department Manager"
-        },
-        "summary": {
-            "perso": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
-            "ed": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
-            "abw": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?"
-        }
-    },
-    "contact": {
-        "text1": "Do you have a project in mind that requires the expertise of a full stack and software developer? Are you looking for a tailor-made solution for your IT needs?",
-        "text2": "Don't hesitate to contact me to discuss your project and explore the possibilities together. Whether you want to create an innovative web application, optimize your existing software or design custom solutions, I'm here to help you realize your digital ambitions.",
-        "text3": "As an experienced developer, I'm committed to providing quality work, transparent collaboration and a service tailored to your specific requirements. Your satisfaction is my top priority.",
-        "text4": "Simply complete the attached contact form, and I'll get back to you as soon as possible. Together, let's bring your IT projects to life and build a promising digital future!",
-        "name": "Name",
-        "email": "Email",
-        "message": "Message",
-        "submit": "Send"
-    },
-    "validations": {
-        "required": "Value is required.",
-        "email": "Value is not a valid email."
+    "summary": {
+      "perso": "Design and implementation of an automated algorithmic trading solution.",
+      "ed": "Responsible for the company's IT department, managing the infrastructure, projects and team.\nResponsible for the development of General Electric's intranet tool optimising design and production processes through continuous improvement.\nDesigned and produced software based on the E3.series suite, enabling some of the biggest players in the sector (General Electric, EDF, OTIS, etc.) to optimise their design and production processes.",
+      "abw": "Design and production of supervision software for high-precision control, measurement and assembly machines."
     }
+  },
+  "contact": {
+    "text1": "Do you have a project in mind that requires the expertise of a full stack and software developer? Are you looking for a tailor-made solution for your IT needs?",
+    "text2": "Don't hesitate to contact me to discuss your project and explore the possibilities together. Whether you want to create an innovative web application, optimize your existing software or design custom solutions, I'm here to help you realize your digital ambitions.",
+    "text3": "As an experienced developer, I'm committed to providing quality work, transparent collaboration and a service tailored to your specific requirements. Your satisfaction is my top priority.",
+    "text4": "Simply complete the attached contact form, and I'll get back to you as soon as possible. Together, let's bring your IT projects to life and build a promising digital future!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send"
+  },
+  "validations": {
+    "required": "Value is required.",
+    "email": "Value is not a valid email."
+  }
 }

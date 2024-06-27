@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { useVuelidate, ErrorObject } from '@vuelidate/core'
+import { useVuelidate } from '@vuelidate/core'
+import type { ErrorObject } from '@vuelidate/core'
 
 const { required, email } = useValidators()
 

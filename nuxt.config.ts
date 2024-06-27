@@ -3,17 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
 
   modules: [
-    '@nuxthq/ui',
-    '@nuxtjs/eslint-module',
+    '@nuxt/ui',
+    '@nuxt/eslint',
     '@nuxtjs/i18n',
     '@nuxt/image',
     'nuxt-svgo'
   ],
-
-  eslint: {
-    lintOnStart: false,
-    exclude: ['**/node_modules/**', 'dist']
-  },
 
   app: {
     head: {
@@ -27,9 +22,9 @@ export default defineNuxtConfig({
   },
 
   css: [
-    "@/assets/styles/tailwind.css",
-    "@/assets/styles/light.scss",
-    "@/assets/styles/dark.scss"
+    "@/assets/css/tailwind.css",
+    "@/assets/scss/light.scss",
+    "@/assets/scss/dark.scss"
   ],
 
   image: {

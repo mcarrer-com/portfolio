@@ -1,50 +1,51 @@
 {
-    "brand": "Michael Carrer",
-    "welcome": "Bienvenue",
-    "sections": {
-        "about": "À Propos",
-        "experiences": "Expériences",
-        "contact": "Contact"
+  "brand": "Michael Carrer",
+  "welcome": "Bienvenue",
+  "sections": {
+    "about": "À Propos",
+    "experiences": "Expériences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "freelance": "Développeur indépendant",
+    "building": "Créateur de",
+    "websites": "sites internet",
+    "softwares": "logiciels"
+  },
+  "about": {
+    "text1": "Je suis un développeur passionné, spécialisé en développement full stack et logiciel, avec une riche expérience de 12 ans dans le monde professionnel. Aujourd'hui, fort de cette expérience et animé par une soif de nouveaux défis, je fais le grand saut pour devenir freelance. Mon objectif est de mettre mes compétences et mon savoir-faire à votre service, afin de créer des solutions informatiques innovantes et sur mesure pour votre entreprise.",
+    "text2": "Donnez vie à votre vision. Créons votre application ensemble.",
+    "contact-me": "Me contacter"
+  },
+  "experiences": {
+    "text1": "En tant que développeur full stack et logiciel, j'ai parcouru un passionnant voyage professionnel au cours des 12 dernières années. Ma carrière m'a permis d'acquérir une expertise solide dans la conception et la réalisation de logiciels, ainsi que dans le développement web moderne. Mon parcours diversifié, allant de la supervision de machines de haute précision à la création d'applications web basées sur des micro-services, témoigne de ma capacité à m'adapter et à innover dans différents domaines.",
+    "text2": "En tant que freelance, je suis déterminé à mettre en œuvre mon savoir-faire pour apporter une valeur ajoutée à vos projets et contribuer à leur succès. Mon objectif est de collaborer avec vous pour créer des solutions technologiques sur mesure, alliant performance, convivialité et évolutivité.",
+    "text3": "N'hésitez pas à explorer mon CV pour découvrir en détail mon parcours professionnel et mes compétences techniques. Je suis enthousiaste à l'idée de relever de nouveaux défis passionnants avec vous. Ensemble, créons l'avenir numérique dont vous rêvez !",
+    "download": "Télécharger le CV",
+    "personal-project": "Projet personnel",
+    "roles": {
+      "full-stack-developer": "Développeur Full Stack",
+      "software-developer": "Développeur Logiciel",
+      "it-department-manager": "Responsable du Service Informatique"
     },
-    "hero": {
-        "freelance": "Développeur indépendant",
-        "building": "Créateur de",
-        "websites": "sites internet",
-        "softwares": "logiciels"
-    },
-    "about": {
-        "text1": "Je suis un développeur passionné, spécialisé en développement full stack et logiciel, avec une riche expérience de 12 ans dans le monde professionnel. Aujourd'hui, fort de cette expérience et animé par une soif de nouveaux défis, je fais le grand saut pour devenir freelance. Mon objectif est de mettre mes compétences et mon savoir-faire à votre service, afin de créer des solutions informatiques innovantes et sur mesure pour votre entreprise.",
-        "text2": "Donnez vie à votre vision. Créons votre application ensemble.",
-        "contact-me": "Me contacter"
-    },
-    "experiences": {
-        "text1": "En tant que développeur full stack et logiciel, j'ai parcouru un passionnant voyage professionnel au cours des 12 dernières années. Ma carrière m'a permis d'acquérir une expertise solide dans la conception et la réalisation de logiciels, ainsi que dans le développement web moderne. Mon parcours diversifié, allant de la supervision de machines de haute précision à la création d'applications web basées sur des micro-services, témoigne de ma capacité à m'adapter et à innover dans différents domaines.",
-        "text2": "En tant que freelance, je suis déterminé à mettre en œuvre mon savoir-faire pour apporter une valeur ajoutée à vos projets et contribuer à leur succès. Mon objectif est de collaborer avec vous pour créer des solutions technologiques sur mesure, alliant performance, convivialité et évolutivité.",
-        "text3": "N'hésitez pas à explorer mon CV pour découvrir en détail mon parcours professionnel et mes compétences techniques. Je suis enthousiaste à l'idée de relever de nouveaux défis passionnants avec vous. Ensemble, créons l'avenir numérique dont vous rêvez !",
-        "personal-project": "Projet personnel",
-        "roles": {
-            "full-stack-developer": "Développeur Full Stack",
-            "software-developer": "Développeur Logiciel",
-            "it-department-manager": "Responsable du Service Informatique"
-        },
-        "summary": {
-            "perso": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
-            "ed": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?",
-            "abw": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ad a delectus unde. Dolorem suscipit, molestias, autem ipsam repellendus perspiciatis nihil architecto qui commodi animi velit! Enim rem accusamus esse?"
-        }
-    },
-    "contact": {
-        "text1": "Vous avez un projet en tête qui nécessite l'expertise d'un développeur full stack et logiciel ? Vous êtes à la recherche d'une solution sur mesure pour vos besoins informatiques ?",
-        "text2": "N'hésitez pas à me contacter pour discuter de votre projet et explorer les possibilités ensemble. Que ce soit pour créer une application web innovante, optimiser vos logiciels existants ou concevoir des solutions personnalisées, je suis là pour vous aider à réaliser vos ambitions numériques.",
-        "text3": "En tant que développeur expérimenté, je m'engage à fournir un travail de qualité, une collaboration transparente et un service adapté à vos exigences spécifiques. Votre satisfaction est ma priorité absolue.",
-        "text4": "Complétez simplement le formulaire de contact ci-joint, et je vous recontacterai dans les plus brefs délais. Ensemble, donnons vie à vos projets informatiques et construisons un futur numérique prometteur !",
-        "name": "Nom",
-        "email": "Email",
-        "message": "Message",
-        "submit": "Envoyer"
-    },
-    "validations": {
-        "required": "La valeur est requise.",
-        "email": "La valeur n'est pas un email valide."
+    "summary": {
+      "perso": "Conception et réalisation d'une solution de trading algorithmique automatisée.",
+      "ed": "Responsable du service informatique de la société, gestion de l'infrastructure, des projets et de l'équipe.\nResponsable de l'évolution de l'outil intranet pour General Electric optimisant les processus de conception et production via des améliorations continues.\nConception et réalisation de logiciels autour de la suite E3.series permettant à certains des plus grands acteurs du domaine (General Electric, EDF, OTIS, etc.) d'optimiser leurs processus de conception et de production.",
+      "abw": "Conception et réalisation d'un logiciel de supervision pour des machines de contrôle, de mesure et d'assemblage de haute précision."
     }
+  },
+  "contact": {
+    "text1": "Vous avez un projet en tête qui nécessite l'expertise d'un développeur full stack et logiciel ? Vous êtes à la recherche d'une solution sur mesure pour vos besoins informatiques ?",
+    "text2": "N'hésitez pas à me contacter pour discuter de votre projet et explorer les possibilités ensemble. Que ce soit pour créer une application web innovante, optimiser vos logiciels existants ou concevoir des solutions personnalisées, je suis là pour vous aider à réaliser vos ambitions numériques.",
+    "text3": "En tant que développeur expérimenté, je m'engage à fournir un travail de qualité, une collaboration transparente et un service adapté à vos exigences spécifiques. Votre satisfaction est ma priorité absolue.",
+    "text4": "Complétez simplement le formulaire de contact ci-joint, et je vous recontacterai dans les plus brefs délais. Ensemble, donnons vie à vos projets informatiques et construisons un futur numérique prometteur !",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Envoyer"
+  },
+  "validations": {
+    "required": "La valeur est requise.",
+    "email": "La valeur n'est pas un email valide."
+  }
 }

@@ -1,34 +1,34 @@
-export default (translate: (key: string) => string): Experience[] => [
+export default (t: (key: string) => string): Experience[] => [
     {
         dateIn: '2022',
-        dateOut: '2023',
+        dateOut: '2024',
         roles: [
-            translate('experiences.roles.full-stack-developer')
+            t('experiences.roles.full-stack-developer')
         ],
-        company: translate('experiences.personal-project'),
-        summary: translate('experiences.summary.perso'),
-        tags: ['Nuxt', 'Vuejs', 'Javascript', 'Typescript', 'SCSS', 'Python', 'PostgreSQL']
+        company: t('experiences.personal-project'),
+        summary: t('experiences.summary.perso'),
+        tags: ['Nuxt 3', 'Vuejs', 'Javascript', 'Typescript', 'SCSS', 'Python', 'PostgreSQL', 'Git', 'Virtualisation', 'Docker']
     },
     {
         dateIn: '2014',
         dateOut: '2021',
         roles: [
-            translate('experiences.roles.it-department-manager'),
-            translate('experiences.roles.full-stack-developer'),
-            translate('experiences.roles.software-developer')
+            t('experiences.roles.it-department-manager'),
+            t('experiences.roles.full-stack-developer'),
+            t('experiences.roles.software-developer')
         ],
-        company: 'Electrical Design',
-        summary: translate('experiences.summary.ed'),
-        tags: ['J2EE', 'Java', 'JSP', 'Maven', 'Hibernate', 'SQL', 'C#', 'WPF', 'VBScript']
+        company: 'Electrical Design, 69680 Chassieu',
+        summary: t('experiences.summary.ed'),
+        tags: ['J2EE', 'Java', 'JSP', 'HTML', 'CSS', 'Javascript', 'Maven', 'Hibernate', 'SQL', 'C#', 'WPF', 'VBScript', 'Git', 'SVN', 'Virtualisation', 'Docker']
     },
     {
         dateIn: '2011',
         dateOut: '2012',
         roles: [
-            translate('experiences.roles.software-developer')
+            t('experiences.roles.software-developer')
         ],
-        company: 'ABW Concept',
-        summary: translate('experiences.summary.abw'),
+        company: 'ABW Concept, 74460 Marnaz',
+        summary: t('experiences.summary.abw'),
         tags: ['VB.Net', 'SQL']
     }
 ]

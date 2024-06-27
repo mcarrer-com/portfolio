@@ -1,36 +1,20 @@
 <template>
   <nav class="navbar">
     <div class="navbar__main">
-      <NuxtLink
-        :to="{ path: '/', hash:'#hero'}"
-        class="btn-brand fancy-btn"
-      >
+      <a href="#" class="btn-brand fancy-btn font-black" @click="scrollToTop()">
         <SvgoLogo filled />
-        <span>{{ $t('brand') }}</span>
-      </NuxtLink>
-      <button
-        class="btn-menu"
-        @click="toggleNav"
-      >
+        <span>{{ $t("brand") }}</span>
+      </a>
+      <button class="btn-menu" @click="toggleNav">
         <SvgoHamburger />
       </button>
     </div>
-    <div
-      class="navbar__menus"
-      :class="showMenu ? 'flex' : 'hidden'"
-    >
+    <div class="navbar__menus" :class="showMenu ? 'flex' : 'hidden'">
       <ul>
-        <li
-          v-for="section in sections"
-          :key="section"
-        >
-          <NuxtLink
-            :to="{ path: '/',hash:`#${section}`}"
-            class="fancy-btn"
-            @click="closeNav"
-          >
+        <li v-for="section in sections" :key="section">
+          <a :href="`#${section}`" class="fancy-btn" @click="closeNav">
             {{ $t(`sections.${section}`) }}
-          </NuxtLink>
+          </a>
         </li>
       </ul>
       <ul>
@@ -44,9 +28,15 @@
     </div>
   </nav>
 </template>
-  <script setup lang="ts">
-  const showMenu = ref(false);
-  const toggleNav = () => (showMenu.value = !showMenu.value);
-  const closeNav = () => (showMenu.value = false);
-  const sections = ['about', 'experiences', 'contact']
-  </script>
+
+
+<script setup lang="ts">
+const showMenu = ref(false);
+const toggleNav = () => (showMenu.value = !showMenu.value);
+const closeNav = () => (showMenu.value = false);
+const sections = ["about", "experiences", "contact"];
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
