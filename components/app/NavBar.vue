@@ -5,9 +5,10 @@
         <SvgoLogo filled />
         <span>{{ $t("brand") }}</span>
       </a>
-      <button class="btn-menu" @click="toggleNav">
+      <AppMenuButton :is-open="showMenu" class="btn-menu" @click="toggleNav"/>
+      <!-- <button class="btn-menu" @click="toggleNav">
         <SvgoHamburger />
-      </button>
+      </button> -->
     </div>
     <div class="navbar__menus" :class="showMenu ? 'flex' : 'hidden'">
       <ul>

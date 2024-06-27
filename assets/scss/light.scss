@@ -116,6 +116,7 @@ section {
   &__main {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 
   &__menus {
@@ -208,7 +209,7 @@ section {
 
 
     & .btn-menu {
-      display: none;
+      display: none !important;
     }
 
     &__menus {
